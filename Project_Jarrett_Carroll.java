@@ -53,7 +53,10 @@ public class Project_Jarrett_Carroll {
         w = scanner.nextDouble();
         p.setWeight(w);
 
-        // Reciept of Personal Details + Price
+        printReciept(p);
+
+    }//methods
+    public static void printReciept(InsurancePolicy p){
         System.out.println("");
         System.out.println("");
         System.out.println("----------------------------------------");
@@ -65,8 +68,5 @@ public class Project_Jarrett_Carroll {
         System.out.println("Your BMI: " + p.getBMI());
         System.out.println("----------------------------------------");
         System.out.println("Your Total Price: $" + p.getPrice() );
-
-
     }
-    
 }
